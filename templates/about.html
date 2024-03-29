@@ -2,6 +2,26 @@
 
 {% block body %}
 
-About
-
+<div class="about">
+    Инопланетянка
+    <hr id="about-hr">
+    <br>
+    <div class="about-image-text">
+        <div class="about-image"><img id="about-image" src="{{ url_for('static', filename='about-image.jpg') }}"></div>
+        <div class="about-text">
+        Инопланетянка(Little Green Girl) - увлекательная визуальная новелла в русском сеттинге! Действие происходит в
+            2015 году в городе Нск - вымышленном населенном пункте, где-то в центральной России,
+            где главный герой, Рома Белов, однажды встречает инопланетную девушку...
+            <br><br>
+            Доступен 1 эпизод! В нем вы ознакомитесь с первыми шестью игровыми днями.
+            Дальнейшие эпизоды - в разработке!
+            <br><br>
+            Инопланетянка сделана командой Ufo-team, частью коллектива Moonworks.
+        </div>
+    </div>
+    <div class="staff">
+        <p>Ссылки создателей</p><hr>
+        <a href="https://vk.com/lgg_vn">Группа ВК</a>
+    </div>
+</div>
 {% endblock body %}

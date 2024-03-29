@@ -16,9 +16,12 @@
 </head>
 <body>
     <div class="info-block">
-        <a href="{{ url_for('about') }}">About</a>
-        <a href="{{ url_for('characters') }}">Characters</a>
-        <a href="{{ url_for('staff') }}">Staff</a>
+        <div class="info-links">
+            <a href="{{ url_for('about') }}">About</a>
+            <a href="{{ url_for('characters') }}">Characters</a>
+            <a href="#">Staff</a>
+            <a href="{{ url_for('home') }}" id="logo"></a>
+        </div>
         <hr>
         {% block body %}
         {% endblock body %}

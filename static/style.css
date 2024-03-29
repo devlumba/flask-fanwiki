@@ -4,7 +4,8 @@
 }
 
 body{
-    background-image: url("background.png");
+    height: 100%;
+    background-image: url("background3.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -24,8 +25,13 @@ body{
     border-radius: 2%;
 
     padding: 1%;
-    background-color: #29354a;
-    color: #fafafa;
+    background-color: #f2faf3;
+}
+
+.info-links{
+    position: relative;
+    color: black;
+    font-size: 2em;
 }
 
 hr {
@@ -33,6 +39,66 @@ hr {
     border: 0;
     top: 4%;
     height: 0.1%;
-    background: white;
+    background: blue;
     opacity: 0.1;
 }
+
+.home-text{
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 15%;
+}
+
+.about-div{
+    position: relative;
+    text-align: left;
+    font-size: 1.4em;
+    margin-top: 5%;
+
+    height: 90%;
+
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+#logo {
+    background-image: url('lgg_logo.png');
+    display: block;
+    margin-top: -5%;
+    margin-bottom: -3%;
+    margin-left: 85%;
+    text-indent: -9999px;
+    width: 4.3vw;
+    height: 4.7vh;
+    background-size: contain;
+}
+
+.about-image-text {
+    display: flex;
+    align-items: left;
+}
+
+#about-image {
+    height: 100px;
+    width: 100px;
+}
+
+.about {
+    margin-top: 5%;
+}
+
+#about-hr {
+    position: relative;
+    height: 0.01vh;
+    width: 17%;
+    background-color: black;
+}
+
+
+
