@@ -1,0 +1,139 @@
+.characters-about {
+    margin-top: 5%;
+    height: 85%;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+.characters-about div {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.characters-roma {
+    display: flex;
+}
+
+
+.characters-yana {
+    display: flex;
+}
+
+
+.characters-stasya {
+    display: flex;
+}
+
+
+.characters-kristina {
+    display: flex;
+}
+
+
+.characters-anya {
+    display: flex;
+}
+
+
+.characters-alexa {
+    display: flex;
+}
+
+
+.characters-yuri {
+    display: flex;
+}
+
+
+#characters-roma-image {
+    height: 200px;
+    width: 200px;
+}
+
+#characters-roma-text{
+    margin-left: 4.1%;
+}
+
+#characters-yana-image {
+    height: 200px;
+    width: 250px;
+
+    margin-left: -4%;
+    margin-top: -5%;
+}
+
+#characters-yana-text {
+    margin-left: -1%;
+}
+
+#characters-stasya-image {
+    height: 200px;
+    width: 210px;
+
+    margin-left: -2%;
+    margin-top: -2%;
+}
+
+#characters-stasya-text {
+    margin-left: 4.5%;
+}
+
+#characters-kristina-image {
+    height: 200px;
+    width: 240px;
+
+    margin-left: -5%;
+    margin-top: -5%;
+}
+
+#characters-kristina-text {
+    margin-left: 2.5%;
+}
+
+#characters-anya-image {
+    height: 200px;
+    width: 230px;
+
+    margin-left: -5%;
+    margin-top: -8%;
+}
+
+#characters-anya-text{
+    margin-left: 4%;
+}
+
+#characters-alexa-image {
+    height: 200px;
+    width: 230px;
+
+    margin-left: -7%;
+    margin-top: -5%;
+
+}
+
+#characters-alexa-text {
+    margin-left: 6%;
+}
+
+#characters-yuri-image {
+    height: 200px;
+    width: 220px;
+
+    margin-left: -3%;
+    margin-top: -3%;
+}
+
+#characters-yuri-text {
+    margin-left: 5%;
+}
+
+.characters-hr {
+    height: 0.1%;
+    width: 100%;
+    color: black;
+    opacity: 0.1%''
+}
+
+.characters-text {
+    font-size: 1.2em;
+}

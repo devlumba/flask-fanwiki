@@ -1,5 +1,63 @@
 {% extends 'base.html' %}
 
-{% block body %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='characters.css') }}">
+{% endblock head %}
 
+{% block body %}
+<div class="characters-about">
+    <h1 class="title">Персонажи</h1>
+    <div class="characters-main">
+        <h1 class="title">Рома</h1><hr class="about-hr">
+        <div class="characters-roma">
+            <img id="characters-roma-image" src="{{ url_for('static', filename='characters/roma.png') }}">
+            <h1 class="characters-text" id="characters-roma-text">Роман Белов. Учится в 10 классе Академии №4 с
+                друзьями детства Стасей и Юрием, на протяжении некоторого времени тайно влюблен в старосту класса,
+                Кристину. Живет с отцом и младшей сестрой Аней. Много читает, интересуется жанром космической
+                фантастики.</h1>
+        </div>
+        <h1 class="title">Яна</h1><hr class="about-hr">
+        <div class="characters-yana">
+            <img id="characters-yana-image" src="{{ url_for('static', filename='characters/yana.png') }}">
+            <h1 class="characters-text" id="characters-yana-text">Яна. Инопланетная подруга Ромы. Пытается помочь ему начать встречаться с Кристиной,
+            т.к. имеет миссию изучить земные романтические отношения. Познает земную жизнь, общаясь и развлекаясь
+            с Ромой, Аней и Стасей.</h1>
+        </div>
+        <h1 class="title">Стася</h1><hr class="about-hr">
+        <div class="characters-stasya">
+            <img id="characters-stasya-image" src="{{ url_for('static', filename='characters/stasya.png') }}">
+            <h1 class="characters-text" id="characters-stasya-text">Станислава. Подруга и одноклассница Ромы. Увлекается спортом и
+                преуспевает в целом ряде разных видов - плавании, беге, воллейболе, стрельбе.
+                Известна Роме своим ветреным характером, дружит с ним и с Юрием с детства.</h1>
+        </div>
+        <h1 class="title">Кристина</h1><hr class="about-hr">
+        <div class="characters-kristina">
+            <img id="characters-kristina-image" src="{{ url_for('static', filename='characters/kristina.png') }}">
+            <h1 class="characters-text" id="characters-kristina-text">Кристина. Староста 10 класса, одноклассница Ромы, Стаси и Юрия. Является почетным
+            учеником школы, помимо работы старостой много помогает учителям. Известна своим умом, хорошей успеваемостью
+            и идеальным поведением.</h1>
+        </div>
+    </div><br>
+    <div class="characters-minor">
+        <h1 class="title">Второстепенные персонажи</h1> <br>
+        <h1 class="title">Аня</h1><hr class="about-hr">
+        <div class="characters-anya">
+            <img id="characters-anya-image" src="{{ url_for('static', filename='characters/anya.png') }}">
+            <h1 class="characters-text" id="characters-anya-text">Аня Белова. Младшая сестра Ромы. Живет вместе с ним и их отцом. Из-за частого отсутствия
+                родителей дома с раннего возраста выполняет всю домашнюю работу и заботится о старшем брате.</h1>
+        </div>
+        <h1 class="title">Алекса</h1><hr class="about-hr">
+        <div class="characters-alexa">
+            <img id="characters-alexa-image" src="{{ url_for('static', filename='characters/alexa.png') }}">
+            <h1 class="characters-text" id="characters-alexa-text">Алекса. Второй инопланетный знакомый Ромы. Прилетела на землю раньше Яны, помогает
+                ей освоится и выполнить миссию. Имеет связи.</h1>
+        </div>
+        <h1 class="title">Юрий</h1><hr class="about-hr">
+        <div class="characters-yuri">
+            <img id="characters-yuri-image" src="{{ url_for('static', filename='characters/yuri.png') }}">
+            <h1 class="characters-text" id="characters-yuri-text">Юрий. Учится в 10 классе вместе с Ромой, Стасей и Кристиной. Хорошо разбирается в
+                химии и компьютерах. Совсем недавно вернулся в класс к Роме и Стасе.</h1>
+        </div>
+    </div>
+</div>
 {% endblock body %}

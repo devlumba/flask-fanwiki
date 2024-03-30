@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+<div class="about">
+    <h1 class="title">Ошибка 404!</h1>
+    <img id="img404" src="{{ url_for('static', filename='404.png') }}">
+</div>
+{% endblock body %}
