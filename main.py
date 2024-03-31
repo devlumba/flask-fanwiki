@@ -4,6 +4,7 @@ from flask import Flask, render_template
 application = Flask(__name__)
 application.config['TRAP_HTTP_EXCEPTIONS']=True
 
+
 @application.route("/")
 def home():
     return render_template("home.html")
@@ -24,7 +25,7 @@ def download():
     return render_template("download.html", title="Скачать")
 
 
-@application.route("/staff/")
+@application.route("/creators/")
 def staff():
     return render_template("staff.html", title='Создатели')
 
